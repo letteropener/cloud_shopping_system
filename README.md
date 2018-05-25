@@ -47,11 +47,11 @@ The manager UI in this architecture serves as the backend of the online shopping
 
 3.6	Lambda/Zappa  - Serverless Python<br/>
 Zappa has been used in the architecture to deploy Amazon AWS Lambda function. The flask application will be implemented as a lambda function on Amazon AWS and the function will be only triggered when there is a web request from browsers in the user side. The lambda function also provides scaling capability when the request traffic becomes high. The list below is the features provides by Zappa:<br/>
-•	Server with a 40-millisecond life cycle
-•	The server is online 24/7 and only process request when there is a request comes in.
-•	Each request is given its own virtual HTTP “server” by Amazon API Gateway
-•	Amazon AWS handles the horizontal scaling
-•	No requests ever time out
-•	Only pay for the milliseconds of server time that user use
-•	No need for load balancing or keep servers online ever again
-•	Free SSL certificates, global app deployment, API access management, automatic security policy generation, precompiled C-extension, auto keep-warms and oversized lambda packages.
+•	Server with a 40-millisecond life cycle<br/>
+•	The server is online 24/7 and only process request when there is a request comes in.<br/>
+•	Each request is given its own virtual HTTP “server” by Amazon API Gateway<br/>
+•	Amazon AWS handles the horizontal scaling<br/>
+•	No requests ever time out<br/>
+•	Only pay for the milliseconds of server time that user use<br/>
+•	No need for load balancing or keep servers online ever again<br/>
+•	Free SSL certificates, global app deployment, API access management, automatic security policy generation, precompiled C-extension, auto keep-warms and oversized lambda packages.<br/>
